@@ -1,0 +1,530 @@
+/* Basic Design Section */
+
+  @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+
+
+/* Common Css Design  */
+
+.container {
+  width: 73.125rem;
+  margin: 0 auto;
+}
+.primary-title {
+  font-weight: 700;
+  font-size: 2.813rem;
+  line-height: 3.313rem;
+  color: #131313;
+}
+.primary-para {
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #727272;
+}
+.primary-btn {
+  background: #ff900e;
+  border-radius: 0.5rem;
+  padding: 1.25rem 1.5rem;
+  border: none;
+  outline: none;
+}
+.primary-btn a {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  text-align: center;
+  color: #fff;
+}
+
+/* Header Section Start */
+
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  height: 5rem;
+  padding-top: 1.875rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+.nav {
+  display: flex;
+  gap: 4.875rem;
+  align-items: center;
+}
+.nav-item a {
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  color: #424242;
+}
+
+
+/* Header Section Start */
+
+
+/* Hero Part Design  */
+
+.hero {
+  padding: 7.25rem 0 2.813rem 0;
+  background: rgba(255, 144, 14, 0.1);
+}
+.hero-content {
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 4.688rem;
+  color: #131313;
+}
+.hero-para {
+  margin: 2rem 0;
+}
+.hero-btn {
+  margin-bottom: 3.125rem;
+}
+
+/* Hero Part Design End */
+
+/* Feature List Design */
+
+.feature {
+  padding: 5.313rem 0 8.125rem 0;
+}
+.feature-teams-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4.563rem;
+}
+.feature-left-column {
+  width: 50%;
+}
+.feature-right-column {
+  width: 50%;
+}
+.feature-teams {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.5rem;
+}
+.feature-para {
+  margin: 1.5rem 0 2.125rem 0;
+}
+
+
+/* Feature List Design End  */
+
+
+/* Feature Work Design   */
+
+.feature-work {
+  position: relative;
+  margin-bottom: 8.125rem;
+}
+.feature-work-group {
+  display: flex;
+  gap: 9.125rem;
+}
+.feature-work-left-col {
+  width: 40%;
+}
+.feature-work-title {
+  border-left: 0.313rem solid #ff900e;
+  padding-left: 1.25rem;
+}
+.feature-work-para {
+  margin: 1.5rem 0 1.875rem 0;
+}
+.work-list {
+  background: #ffffff;
+  box-shadow: 0px 0.25rem 1.875rem rgba(0, 0, 0, 0.06);
+  border-radius: 0.5rem;
+  padding: 1.875rem;
+  margin-bottom: 1.25rem;
+}
+.work-list-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  color: #131313;
+  margin-bottom: 0.625rem;
+}
+.feature-work-right-col {
+  width: 60%;
+}
+.feature-work-right-col img {
+  height: 61.375rem;
+  object-fit: cover;
+}
+.work-btn {
+  font-weight: 700;
+  font-size: 4.063rem;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #fff;
+  background: #ff900e;
+  border-radius: 0.5rem;
+  padding: 2.813rem;
+  border: none;
+  outline: none;
+}
+.feature-work-btn {
+  position: absolute;
+  bottom: 0;
+  left: 53%;
+  transform: translate(-47%, -50%);
+}
+
+.work-btn span {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+/* Feature Section Design End */
+
+
+/* Fact Section Design  */
+
+.fact-content {
+  width: 50%;
+}
+.fact-para {
+  margin: 1.5rem 0 6.25rem 0;
+}
+.awards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.award-item {
+  
+  border: 0.063rem solid #ff900e;
+  border-radius: 0.5rem;
+  width: 15.063rem;
+  text-align: center;
+  padding: 2.813rem 1.875rem;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  -ms-transition: -ms-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.award-item img {
+  width: 2.813rem;
+}
+.award-item h3 {
+  font-weight: 600;
+  font-size: 2.813rem;
+  line-height: 3.313rem;
+  color: #424242;
+}
+.award-item p {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  color: #727272;
+}
+
+.award-item:hover {
+  background: rgb(214, 79, 79);
+  color: #fff;
+  transform:rotate(45deg);
+  -ms-transform:rotate(45deg);
+  -webkit-transform:rotate(45deg);
+}
+
+.award-item:hover h3,
+.award-item:hover p {
+  color: #fff;
+}
+/* Fact Section End  */
+
+
+/* Sponsor Section  Design  */
+
+.sponsor {
+  padding: 11.25rem 0 8.125rem 0;
+}
+.sponsor-content {
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.sponsor-content .primary-para {
+  margin-top: 1.5rem;
+}
+.sponsor-container{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.125rem;
+}
+.sponsor-container img {
+  width: 10.313rem;
+  filter: grayscale(1);
+}
+
+
+/* Sponsor Section End  */
+
+
+
+/* Architecture Projects Section Design  */
+
+.architecture {
+  padding: 3.125rem 0;
+}
+.architecture-content {
+  width: 55%;
+  text-align: center;
+  margin: 0 auto;
+}
+.architecture-content .primary-para {
+  margin-top: 1.5rem;
+}
+.architecture-blogs {
+  margin: 5rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+.blog-item {
+  width: 20rem;
+  background: #fff;
+  box-shadow: 0.125rem 0.125rem 0.25rem #ccc;
+}
+.blog-info {
+  padding: 0.625rem;
+}
+.blog-info h2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  color: #131313;
+  margin-top: 0.625rem;
+}
+.author-date p {
+  margin-top: 0.875rem;
+}
+.read-more {
+  font-weight: 700;
+  margin-top: 1.5rem;
+  display: block;
+}
+/* Architecture Projects Section End */
+
+
+/* Footer Section  Design */
+
+
+footer {
+  padding-bottom: 13.5rem;
+}
+.footer-bg {
+  background: #fff4e7;
+  border-radius: 0.5rem;
+  padding: 2.438rem;
+  text-align: center;
+}
+.footer-bg p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  color: #424242;
+}
+
+
+/* Footer Design Section End  */
+
+
+/* Mobile device Responsive */
+
+
+/* small device */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+  nav,
+  .nav,
+  .feature-teams-group,
+  .feature-work-group,
+  .awards,
+  .sponsor-container,
+  .architecture-blogs {
+    flex-direction: column;
+  }
+  .nav {
+    gap: 20px;
+    margin-top: 10%;
+  }
+  .hero-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .hero {
+    padding-top: 65%;
+  }
+  .hero-img {
+    width: 90%;
+    margin: auto;
+  }
+  .feature-teams {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .primary-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .primary-title {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .feature-work-left-col,
+  .feature-work-right-col {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+  }
+  .feature-work-right-col img {
+    height: 100%;
+  }
+  .feature-work-btn {
+    transform: translate(-85%, 36%);
+  }
+  .feature-work-group {
+    gap: 30px;
+  }
+  .work-btn {
+    font-size: 32px;
+    padding: 3% 24%;
+  }
+  .fact-content {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .awards {
+    gap: 16px;
+  }
+  .award-item:hover {
+    transform: scale(1.1);
+  }
+  .sponsor {
+    padding: 20% 0 10%;
+  }
+  .sponsor-container {
+    gap: 32px;
+  }
+  .sponsor-container img {
+    width: 50%;
+    margin: auto;
+  }
+  .blog-item {
+    margin: auto;
+    margin-bottom: 5%;
+    width: 90%;
+  }
+  footer {
+    padding-bottom: 50px;
+  }
+  .footer-bg {
+    width: 90% !important;
+  }
+  .footer-bg p {
+    font-size: 16px;
+  }
+}
+
+
+/* end small device */
+
+
+
+
+/* Medium device  */
+
+
+@media screen and (min-width: 577px) and (max-width: 991px) {
+  .container {
+    width: 100%;
+  }
+  nav,
+  .nav,
+  .feature-teams-group,
+  .feature-work-group,
+  .awards,
+  .sponsor-container,
+  .architecture-blogs {
+    flex-direction: column;
+  }
+  .feature-work-left-col,
+  .feature-work-right-col,
+  .fact-content,
+  .hero-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .nav {
+    margin-top: 20px;
+  }
+  .hero {
+    padding-top: 25%;
+  }
+  .feature-work-btn {
+    transform: translate(-50%, 32%);
+  }
+  .work-btn {
+    padding: 15px 45px;
+  }
+  .fact-content {
+    text-align: center;
+  }
+  .awards,
+  .architecture-blogs,
+  .menu,
+  .feature-work-group {
+    gap: 20px;
+  }
+  .sponsor-container {
+    gap: 40px;
+  }
+
+  .sponsor-container img {
+    width: 50%;
+    margin: auto;
+  }
+  .blog-item {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .footer-bg {
+    width: 90% !important;
+  }
+}
+
+
+/* end Medium device */
